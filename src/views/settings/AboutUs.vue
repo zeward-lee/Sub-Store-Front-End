@@ -10,7 +10,7 @@
             <template v-slot:title>
               <span>
                 {{ $t(`aboutUsPage.projectInfo.fe`) }}
-                <b class="bclass">v{{ version }} </b>
+                <b class="bclass">v {{ version }} </b>
               </span>
             </template>
             <template v-slot:link>
@@ -26,8 +26,8 @@
             <template v-slot:title>
               <span
                 >{{ env.backend === 'Node' ? $t(`aboutUsPage.projectInfo.be`) : $t(`aboutUsPage.projectInfo.module`) }}
-                <b v-if="env.hasNewVersion" class="bclass"><a target="_blank" :href="env.backend === 'Node' ? 'https://github.com/sub-store-org/Sub-Store/releases' : 'https://github.com/sub-store-org/Sub-Store/tree/master/config'"><nut-badge value="NEW">v{{env.version}}</nut-badge></a></b>
-                <b v-else class="bclass">v{{ env.version }}</b>
+                <b v-if="env.hasNewVersion" class="bclass"><a target="_blank" :href="env.backend === 'Node' ? 'https://github.com/sub-store-org/Sub-Store/releases' : 'https://github.com/sub-store-org/Sub-Store/tree/master/config'"><nut-badge value="NEW">v {{env.version}}</nut-badge></a></b>
+                <b v-else class="bclass">v {{ env.version }}</b>
               </span>
             </template>
             <template v-slot:link>
