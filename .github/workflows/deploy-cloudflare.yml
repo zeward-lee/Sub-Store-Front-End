@@ -37,4 +37,5 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           npm install -g wrangler@4
+          wrangler pages project create ${{ vars.CLOUDFLARE_PAGES_PROJECT }} --production-branch master || true
           wrangler pages deploy dist --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT }}
