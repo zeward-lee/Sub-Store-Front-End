@@ -705,6 +705,7 @@ export default {
             'mieru',
             'sudoku',
             'MASQUE',
+            'MASQUE(Surge)',
             'Shadow QUIC',
             'NaïveProxy',
             'AnyTLS',

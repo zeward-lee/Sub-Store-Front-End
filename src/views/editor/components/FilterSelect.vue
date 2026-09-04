@@ -75,6 +75,7 @@
         'mieru',
         'sudoku',
         'masque',
+        'masque-surge',
         'shadowquic',
         'naive',
         'anytls',
