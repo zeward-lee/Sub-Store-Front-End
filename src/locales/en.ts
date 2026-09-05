@@ -485,6 +485,9 @@ export default {
         noFlow: {
           label: "Do not query subscription traffic info",
         },
+        noCache: {
+          label: "Disable Remote Cache",
+        },
         subUserinfo: {
           label: "Subscription-Userinfo",
           placeholder: "Value/URL(URL supports headers/noCache/headersCacheTtl etc.)",

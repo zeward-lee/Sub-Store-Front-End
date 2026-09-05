@@ -42,6 +42,7 @@ interface Sub {
   iconFit?: ImageFit | null;
   ua?: string;
   mergeSources?: string;
+  noCache?: boolean;
   noFlow?: boolean;
   subUserinfo?: string;
   tag?: string[];

@@ -463,6 +463,9 @@ export default {
         "noFlow": {
           "label": "Не запрашивать информацию о трафике"
         },
+        "noCache": {
+          "label": "Отключить удалённый кэш"
+        },
         "subUserinfo": {
           "label": "Данные подписки в заголовке",
           "placeholder": "Значение/URL (URL поддерживает заголовки, noCache, headersCacheTtl и др.)"

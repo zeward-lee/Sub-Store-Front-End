@@ -473,6 +473,9 @@ export default {
         noFlow: {
           label: '不查询订阅流量信息',
         },
+        noCache: {
+          label: '禁用远程缓存',
+        },
         subUserinfo: {
           label: '订阅流量信息',
           placeholder: '值/链接(链接支持 headers/noCache/headersCacheTtl 等参数)',
